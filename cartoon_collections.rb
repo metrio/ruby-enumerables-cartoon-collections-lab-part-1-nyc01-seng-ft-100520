@@ -5,7 +5,9 @@ end
 end
 
 def list_dwarves(array)
+  index = 1
   array.each_with_index do |characters|
+    index += 1
     puts "#{index} . #{characters}"
   end
 end
