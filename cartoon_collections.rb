@@ -5,5 +5,7 @@ end
 end
 
 def list_dwarves(array)
-  arra.each do |characters|
+  array.each_with_index do |characters|
+    puts 
+    
 end
